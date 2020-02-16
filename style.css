@@ -1,0 +1,65 @@
+body {
+    background-color: grey;
+}
+
+.cv {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid grey 1px;
+}
+
+.footer {
+    display: flex;
+}
+
+.photo {
+    width: 550px;
+    height: 300px;
+}
+
+.photo img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 50px 0 0 50px;
+}
+
+.contacts {
+    text-align: right;
+    padding-top: 35px;
+}
+
+.content {
+    border-top: solid grey 1px;
+    padding-bottom: 20px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content h2 {
+    margin-left: 10px;
+}
+
+.content p {
+    line-height: 50%;
+    margin-left: 20px;
+}
+
+.heading {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.colums {
+    display: flex;
+}
+
+.colum-heading {
+    width: 270px;
+}
+
+.colum-text {
+    width: 400px;
+}
